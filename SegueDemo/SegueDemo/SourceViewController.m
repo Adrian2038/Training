@@ -31,6 +31,12 @@
     }
 }
 
+//// Triggering a segue programmatically
+//- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+//{
+//}
+
+
 #pragma mark - DestinationViewController
 
 - (void)destinationViewControllerDidDismissed:(DestinationViewController *)controller
