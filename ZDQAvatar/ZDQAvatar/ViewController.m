@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AvatarRingView.h"
+#import "ZDQAvatarRingView.h"
 
 @interface ViewController ()
 
@@ -28,7 +28,7 @@
                      [ColorPercentageItem itemWithPercentage:0.1 color:[UIColor purpleColor]],
                      [ColorPercentageItem itemWithPercentage:0.5 color:[UIColor redColor]]];
   
-  AvatarRingView *avatar = [[AvatarRingView alloc] initWithFrame:avatarFrame];
+  ZDQAvatarRingView *avatar = [[ZDQAvatarRingView alloc] initWithFrame:avatarFrame];
   [avatar setImage:image];
   [avatar setColorPercentageItems:items];
   
